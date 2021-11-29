@@ -1,0 +1,20 @@
+{
+  "name": "setup-nodejs",
+  "version": "0.0.1",
+  "description": "projeto de demonstracao",
+  "repository": "github:inolopesm/setup-nodejs",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.10"
+  }
+}
